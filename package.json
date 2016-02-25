@@ -1,7 +1,7 @@
 {
   "name": "scratch",
   "version": "1.0.0",
-  "description": "Parse NY lotto scratch ticket report PDF into JSON",
+  "description": "Parse NY lotto scratch prize report into JSON",
   "author": "Justin Perler <jperler@gmail.com>",
   "license": "ISC",
   "dependencies": {
