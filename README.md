@@ -2,6 +2,8 @@
 Parse NY lotto scratch prize report into JSON
 ### Installing scratch
 ```bash
+$ git clone git@github.com:jperler/scratch.git
+$ cd scratch
 $ npm install
 ```
 ### Running scratch
@@ -9,7 +11,7 @@ $ npm install
 $ ./bin/scratch [pdf]
 ```
 
-#### Generates: output/<filname>.json
+#### Generates: output/&lt;filename&gt;.json
 ```json
 [
    {
