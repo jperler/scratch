@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var program = require('commander')
+var parse = require('../src/parser.compiled')
+
+program
+    .version('0.0.1')
+    .usage('[pdf]')
+    .parse(process.argv)
+
+if (!program.args.length) {
+    program.help()
+} else {
+    parse(program.args[0])
+}
